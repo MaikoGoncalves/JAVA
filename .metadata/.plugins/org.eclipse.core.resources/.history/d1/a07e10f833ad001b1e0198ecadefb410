@@ -1,0 +1,22 @@
+package atividades;
+
+import java.util.Scanner;
+
+public class TesteRetangulo {
+
+	public static void main(String[] args) {
+		
+		Retangulo retA = new Retangulo();
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Entre com o Altura do retngulo");
+		retA.alt = sc.nextDouble();
+		System.out.println("Entre com o Comprimento do retngulo");
+		retA.comp = sc.nextDouble();
+
+		retA.calcularArea();
+		
+		retA.imprimir();
+	}
+
+}

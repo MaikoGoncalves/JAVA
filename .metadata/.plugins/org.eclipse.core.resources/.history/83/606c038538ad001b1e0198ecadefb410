@@ -1,0 +1,21 @@
+package Notas;
+
+public class TesteAluno {
+
+	public static void main(String[] args) {
+		Aluno a = new Aluno();
+		Aluno b = new Aluno();
+		
+		a.entradaNome();
+	    a.soma();
+		b.entradaNome();
+		b.soma();
+		
+		a.imprimir();
+		a.calculo();
+		b.imprimir();
+		b.calculo();
+		
+	}
+
+}

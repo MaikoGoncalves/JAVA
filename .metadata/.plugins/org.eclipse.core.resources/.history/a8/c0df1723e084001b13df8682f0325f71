@@ -1,0 +1,40 @@
+package aula;
+import java.util.Scanner;
+
+public class Teste {
+
+	public static void main(String[] args) {
+   
+		//java.util.Scanner nota = new Scanner(System.in); Essa aqui não sei utilizar ela 
+		
+		Scanner sc=new Scanner(System.in);	
+	    float n1, n2, n3, n4, n5, mf;
+	    System.out.println("Entre com a primeira nota:");
+	    n1= nota.nextFloat();
+	    System.out.println("Entre com a segunda nota:");
+	    n2= nota.nextFloat();
+	    System.out.println("Entre com a terceira nota:");
+	    n3 = nota.nextFloat();
+	    System.out.print("Entre com a quarta nota:");
+	    n4 = nota.nextFloat();
+	    System.out.print("Entre com a quinta nota:");
+	    n5 = nota.nextFloat();
+	    mf = (n1+n2+n3+n4+n5)/5;
+	    if(mf >= 70)
+	    {
+	 
+	    System.out.println("Voce foi APROVADO.");
+	    }
+	    else
+	    {
+	    System.out.println("Voce foi REPROVADO.");
+	    }
+	    
+}
+}
+		
+		
+		
+	}
+
+}

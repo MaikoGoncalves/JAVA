@@ -1,0 +1,31 @@
+package Notas;
+
+import java.util.Scanner;
+
+public class TesteAluno {
+
+	public static void main(String[] args) {
+		Aluno a = new Aluno();
+		Aluno b = new Aluno();
+		
+		Scanner sc = new Scanner(System.in);
+		
+		a.entradaNome();
+	    a.media();
+		b.entradaNome();
+		b.media();
+		
+
+		a.imprimir();
+		b.imprimir();
+		/*System.out.println("O nome do aluno : " + a.nome);
+		System.out.println("A nota : " + a.soma);
+		System.out.println("A Media : " + a.media);
+	
+		System.out.println("O nome do aluno : " + b.nome);
+		System.out.println("A nota : " + b.soma);
+		System.out.println("A Media : " + b.media);
+	    */
+	}
+
+}

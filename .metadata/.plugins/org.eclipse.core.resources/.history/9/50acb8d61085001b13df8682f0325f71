@@ -1,0 +1,40 @@
+package aula;
+
+import java.util.Scanner;
+
+public class Teste {
+
+	public static void main(String[] args) {
+   
+		//java.util.Scanner nota = new Scanner(System.in); Essa aqui não sei utilizar ela 
+		Scanner sc=new Scanner(System.in);	//coloquei essa
+	    
+		//float nota, n2, n3, n4, n5, mf;    Fiz diferente embaixo.
+		
+		float nota, soma=0, media;
+		
+		for(int i=1; i <= 5; i++ ) {// fiz um for para diminuir variaveis
+	    	    
+	    System.out.println("Entre com nota:");
+	    nota= sc.nextFloat();
+		soma=soma+nota;// usei a soma toda vez que passa aqui vai somando 
+		}
+	   
+	    if(soma >= 70)
+	    {
+	    System.out.println("Sua nota foi é: " + soma);
+	    System.out.println("Voce foi APROVADO.");
+	    }
+	    else if(soma >=50 ){
+	    	System.out.println("Sua nota foi é: " + soma);
+	    	System.out.println("Voce está na prova final");	
+	    	}
+	    else{
+	    	System.out.println("Sua nota foi é: " + soma);
+	    	System.out.println("Voce foi REPROVADO.");
+	        }
+	    media=soma/5;
+	    System.out.println("Sua media foi é: " + media);
+	}
+}
+

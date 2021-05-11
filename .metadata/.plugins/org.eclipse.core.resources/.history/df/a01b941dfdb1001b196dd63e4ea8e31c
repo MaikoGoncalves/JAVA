@@ -1,0 +1,30 @@
+package atividades;
+
+public class Retangulo {
+	public double comp;
+	public double alt;
+	public double area,diagonal,perimetro;
+	
+	public void calcularArea() {
+		//double area;
+		area=alt*comp;
+		//return area;
+	}
+	public void calcularPerimetro() {
+		//double perimetro;
+		perimetro=2*(alt*comp);
+		//return perimetro;
+	}
+	public void calcularDiagonal() {
+		//double diagonal;
+		diagonal=Math.sqrt(alt*comp);
+		//return diagonal;
+	}
+	public void imprimir(){	
+		System.out.println("\nA Altura é: " + alt);
+		System.out.println("O Comprimento é: " + comp);
+		System.out.println("\nA área é: " + area + "cm²");
+		System.out.println("O Perímetro é: " + perimetro);
+		System.out.println("A diagonal é: " + diagonal);
+	}
+}
