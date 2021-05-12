@@ -18,16 +18,15 @@ public class TesteFuncionario {
 		
 		func.calcularNovoSalario();
 				
-		func.mostrarDados();	
+		System.out.println("O Nome do funcionário é: " + func.nome);
+		System.out.println("O Salário Bruto é: " + func.salarioBruto);
+		System.out.println("O Salário Líquido é: " + func.calcularNovoSalario());
 	
 		System.out.println("\nEntre com a % do aumento");
 		double porc = sc.nextDouble();
 		
-		func.calcularAumentoSalario(porc);
-		func.mostrarDados();
-		
-		//System.out.println("O Nome do funcionário é: " + func.nome);
-		//System.out.println("O Salário Bruto é: " + func.salarioBruto);
-		//System.out.println("O Novo Salário é: " + func.calcularAumentoSalario(porc));
+		System.out.println("O Nome do funcionário é: " + func.nome);
+		System.out.println("O Salário Bruto é: " + func.salarioBruto);
+		System.out.println("O Novo Salário é: " + func.calcularAumentoSalario(porc));
 	}
 }

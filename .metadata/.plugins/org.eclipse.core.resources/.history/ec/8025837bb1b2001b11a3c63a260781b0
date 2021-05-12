@@ -20,7 +20,6 @@ public class Funcionario {
 	public void mostrarDados()
 	{
 		System.out.println("Nome " + nome + ", " + "Salário: " + salarioBruto);
-		System.out.println("O Salário Líquido é: " + calcularNovoSalario());
 	}
 
 

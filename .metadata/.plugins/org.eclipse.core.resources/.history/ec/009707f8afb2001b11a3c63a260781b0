@@ -12,16 +12,8 @@ public class Funcionario {
         return salarioLiquido; 	
 	}	
 	public double calcularAumentoSalario(double porcentagem) {
-		//double salarioNovo;
-	   	salarioBruto = salarioBruto + ((salarioBruto  * porcentagem)/100 ); 
-        return salarioBruto; 
+		double salarioNovo;
+	   	salarioNovo = salarioBruto + ((salarioBruto  * porcentagem)/100 ); 
+        return salarioNovo; 
 	}
-
-	public void mostrarDados()
-	{
-		System.out.println("Nome " + nome + ", " + "Salário: " + salarioBruto);
-		System.out.println("O Salário Líquido é: " + calcularNovoSalario());
-	}
-
-
 }

@@ -21,8 +21,8 @@ public class Aluno {
 		}
 	return soma;
 	}
-	public void imprimir(double soma) {
+	public void imprimir() {
 		System.out.println("O nome do aluno : " + nome);
-		System.out.println("A nota : " + soma);
+		//System.out.println("A nota : " + somaNota);
 	}
 }

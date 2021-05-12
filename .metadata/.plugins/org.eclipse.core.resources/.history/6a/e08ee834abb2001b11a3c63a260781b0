@@ -27,11 +27,10 @@ public class TesteCarro {
         System.out.println("Você deseja ligar o carro.");
         boolean teste = sc.nextBoolean();
         
-        if(teste=true) {
         carroA.ligar();
         carroA.acelerar();
         carroA.frear();
-        }
+        
         
         
         System.out.println();
