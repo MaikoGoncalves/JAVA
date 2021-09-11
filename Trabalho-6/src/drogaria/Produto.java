@@ -2,7 +2,7 @@ package drogaria;
 
 public class Produto {
 
-	private int tam = 15, i = 1;
+	private int tam = 3, i = 1;
 	private int[] codigo = new int[tam];
 	private String[] nome = new String[tam];
 	private double[] precoCusto = new double[tam];
